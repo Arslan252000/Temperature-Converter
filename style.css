@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    /* background-image: url("TP5.png"); */
+    background-color: white;
+    height:120vh ;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    
+}
+#main_div
+{
+    margin-top: 10%;
+    background-color:rgb(101, 210, 141);
+    color: black;
+    height:45%;
+    width:61%;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.406) 0px 22px 70px 4px;
+}
+#headeris{
+    /* margin: 1rem; */
+    font-size: 2rem;
+    text-align: center;
+    height:10vh;
+    color:whitesmoke;
+    margin-top: 20px;
+    text-shadow: 16px 22px 11px rgba(0, 0, 0, 0.199);
+}
+#container{
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#result{
+    
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+input,select{
+    padding:1%;
+    margin: 0rem 1rem;
+    border-radius: 5px;
+}
+#btn1{
+    margin: 0.5rem 1rem;
+    padding:10px 32px;
+    background-color: rgb(79, 70, 70);
+    color:white;
+    border:none;
+    font-size: 1.5rem;
+    border-radius: 15px;
+
+}
+
+#btn1:hover{
+    background-color: burlywood;
+    color: #000000;
+}
+
+#myresult{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+#resultcontainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+form{margin-top:20px;}
